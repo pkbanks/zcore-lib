@@ -9,7 +9,7 @@ bitcore.versionGuard = function(version) {
     var message = 'More than one instance of zcore-lib found. ' +
       'Please make sure to require zcore-lib and check that submodules do' +
       ' not also include their own zcore-lib dependency.';
-    throw new Error(message);
+//     throw new Error(message);
   }
 };
 bitcore.versionGuard(global._bitcore);
